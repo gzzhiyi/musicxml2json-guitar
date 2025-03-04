@@ -35,6 +35,6 @@
 ```
 
 ## API文档
-
+  [地址](https://www.hezhiyi.com/whale/docs/zh/musicxml2json-guitar/guide/)
 
 ## Demo
