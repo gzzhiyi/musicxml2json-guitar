@@ -1,16 +1,17 @@
 {
   "name": "musicxml2json-guitar",
   "version": "0.1.0",
-  "author": "gzzhiyi@gmail.com",
+  "author": "hezhiyi",
   "license": "MIT",
-  "description": "Simple MusicXML for guitar.",
+  "description": "MusicXML to JSON for guitar.",
   "keywords": [
     "MusicXML",
     "guitar",
     "music"
   ],
+  "homepage": "",
   "scripts": {
-    "dev": "rollup -c ./build/rollup.dev.config.js -w",
+    "dev": "set NODE_ENV=developemnt && rollup -c ./build/rollup.dev.config.js -w",
     "test": "react-app-rewired start",
     "build": "rollup -c ./build/rollup.build.config.js"
   },
@@ -22,7 +23,6 @@
     "@types/lodash": "^4.14.182",
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.2",
-    "axios": "^0.27.2",
     "cra-template": "1.1.2",
     "fast-xml-parser": "^4.0.9",
     "lodash": "^4.17.21",
@@ -63,7 +63,6 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://www.hezhiyi.com/whale/docs/zh/musicxml2json-guitar/guide/",
   "browserslist": {
     "production": [
       ">0.2%",
